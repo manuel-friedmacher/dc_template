@@ -5,6 +5,7 @@
   "image": "mcr.microsoft.com/devcontainers/python:latest", // Uncomment this line to use Python as the base image for the dev container.
   "initializeCommand": "sh .devcontainer/initialize.sh",
   "postCreateCommand": "sh .devcontainer/post-create.sh",
+  "postStartCommand": "sh .devcontainer/post-start.sh",
   "runArgs": [
     "--network=host",
     "--env-file",
